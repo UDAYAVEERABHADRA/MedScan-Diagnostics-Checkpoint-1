@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Large ML files
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.keras
+*.pkl
+*.joblib
+
+# Dataset files
+data/*.csv
+data/*.json
+data/*.zip
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment/API keys
+.env
+
+# Results
+results/*
+!results/.gitkeep
