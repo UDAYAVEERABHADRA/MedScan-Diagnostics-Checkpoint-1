@@ -1,6 +1,35 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+torch>=2.1
+torchvision>=0.16
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+matplotlib>=3.7
+seaborn>=0.12
+Pillow>=10.0
+opencv-python>=4.8
+gradio>=4.0
+grad-cam>=1.5
+tqdm>=4.66
+=======
+torch
+torchvision
+>>>>>>> cfe1ae116f929911b8f934bef78e4c09e026c13f
 numpy
 pandas
 scikit-learn
 joblib
 matplotlib
+<<<<<<< HEAD
 seaborn
+=======
+seaborn
+Pillow
+opencv-python
+gradio
+grad-cam
+tqdm
+>>>>>>> origin/main
+>>>>>>> cfe1ae116f929911b8f934bef78e4c09e026c13f
