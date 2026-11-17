@@ -1,0 +1,14 @@
+                 precision    recall  f1-score   support
+
+        Anaemia       0.77      0.67      0.71        15
+Gastroenteritis       0.86      0.80      0.83        15
+        Healthy       0.74      0.93      0.82        15
+   Hypertension       0.75      0.80      0.77        15
+      Influenza       0.92      0.73      0.81        15
+       Migraine       0.69      0.73      0.71        15
+      Pneumonia       1.00      1.00      1.00        15
+  Type2Diabetes       1.00      1.00      1.00        15
+
+       accuracy                           0.83       120
+      macro avg       0.84      0.83      0.83       120
+   weighted avg       0.84      0.83      0.83       120

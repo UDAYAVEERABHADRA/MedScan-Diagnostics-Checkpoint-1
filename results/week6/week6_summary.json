@@ -1,0 +1,76 @@
+{
+  "dataset": "data\\aiml_healthcare_symptoms.csv",
+  "records": 800,
+  "features": 15,
+  "target": "Diagnosis",
+  "split_sizes": {
+    "training": 560,
+    "validation": 120,
+    "testing": 120
+  },
+  "selection_metric": "validation_macro_f1",
+  "best_configuration": {
+    "run_name": "RandomForest_B_regularized",
+    "n_estimators": 300,
+    "max_depth": 12,
+    "min_samples_split": 5,
+    "min_samples_leaf": 2,
+    "max_features": "sqrt"
+  },
+  "best_validation_macro_f1": 0.8400708360267184,
+  "best_model_test_metrics": {
+    "accuracy": 0.8333333333333334,
+    "macro_precision": 0.8396727997879314,
+    "macro_recall": 0.8333333333333334,
+    "macro_f1": 0.8330108894379653
+  },
+  "experiments": [
+    {
+      "configuration": {
+        "run_name": "RandomForest_A_baseline",
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      },
+      "validation_metrics": {
+        "accuracy": 0.8333333333333334,
+        "macro_precision": 0.8412551908875439,
+        "macro_recall": 0.8333333333333334,
+        "macro_f1": 0.8324546861184792
+      },
+      "test_metrics": {
+        "accuracy": 0.8333333333333334,
+        "macro_precision": 0.8415064102564103,
+        "macro_recall": 0.8333333333333333,
+        "macro_f1": 0.832900238948626
+      }
+    },
+    {
+      "configuration": {
+        "run_name": "RandomForest_B_regularized",
+        "n_estimators": 300,
+        "max_depth": 12,
+        "min_samples_split": 5,
+        "min_samples_leaf": 2,
+        "max_features": "sqrt"
+      },
+      "validation_metrics": {
+        "accuracy": 0.8416666666666667,
+        "macro_precision": 0.8467219828674937,
+        "macro_recall": 0.8416666666666668,
+        "macro_f1": 0.8400708360267184
+      },
+      "test_metrics": {
+        "accuracy": 0.8333333333333334,
+        "macro_precision": 0.8396727997879314,
+        "macro_recall": 0.8333333333333334,
+        "macro_f1": 0.8330108894379653
+      }
+    }
+  ],
+  "saved_model": "models\\medscan_week6_best.joblib",
+  "mlflow_tracking_uri": "sqlite:///mlflow.db",
+  "note": "Experimental healthcare classification prototype; not for clinical diagnosis."
+}
