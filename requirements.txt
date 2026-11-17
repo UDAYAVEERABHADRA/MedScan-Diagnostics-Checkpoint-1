@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 torch>=2.1
 torchvision>=0.16
 numpy>=1.24
@@ -10,3 +11,17 @@ opencv-python>=4.8
 gradio>=4.0
 grad-cam>=1.5
 tqdm>=4.66
+=======
+torch
+torchvision
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+Pillow
+opencv-python
+gradio
+grad-cam
+tqdm
+>>>>>>> origin/main
