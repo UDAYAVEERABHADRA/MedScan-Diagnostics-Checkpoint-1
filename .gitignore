@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+models/*.pt
+models/*.pth
+data/xray_raw/*
+!data/xray_raw/README.md
+results/*.json
+results/*.csv
+results/*.png
+results/invalid_images.txt
+!results/.gitkeep

@@ -1,0 +1,1 @@
+Notebook work is optional. The reproducible Week 3 pipeline is provided as Python scripts under src/.
