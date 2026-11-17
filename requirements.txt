@@ -1,12 +1,6 @@
-torch
-torchvision
 numpy
 pandas
 scikit-learn
+joblib
 matplotlib
 seaborn
-Pillow
-opencv-python
-gradio
-grad-cam
-tqdm

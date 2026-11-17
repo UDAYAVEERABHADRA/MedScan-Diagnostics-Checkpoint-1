@@ -1,0 +1,88 @@
+{
+    "selected_model": "RandomForest",
+    "random_state": 42,
+    "split": {
+        "training": 560,
+        "validation": 120,
+        "testing": 120
+    },
+    "validation_results": {
+        "RandomForest": {
+            "accuracy": 0.8333333333333334,
+            "macro_f1": 0.8324546861184792
+        },
+        "ExtraTrees": {
+            "accuracy": 0.8166666666666667,
+            "macro_f1": 0.8153647104002892
+        }
+    },
+    "test_metrics": {
+        "accuracy": 0.8166666666666667,
+        "macro_precision": 0.8257753582202112,
+        "macro_recall": 0.8166666666666667,
+        "macro_f1": 0.8158591483188258
+    },
+    "classification_report": {
+        "Anaemia": {
+            "precision": 0.75,
+            "recall": 0.6,
+            "f1-score": 0.6666666666666666,
+            "support": 15.0
+        },
+        "Gastroenteritis": {
+            "precision": 0.8461538461538461,
+            "recall": 0.7333333333333333,
+            "f1-score": 0.7857142857142857,
+            "support": 15.0
+        },
+        "Healthy": {
+            "precision": 0.7,
+            "recall": 0.9333333333333333,
+            "f1-score": 0.8,
+            "support": 15.0
+        },
+        "Hypertension": {
+            "precision": 0.7058823529411765,
+            "recall": 0.8,
+            "f1-score": 0.75,
+            "support": 15.0
+        },
+        "Influenza": {
+            "precision": 0.9166666666666666,
+            "recall": 0.7333333333333333,
+            "f1-score": 0.8148148148148148,
+            "support": 15.0
+        },
+        "Migraine": {
+            "precision": 0.6875,
+            "recall": 0.7333333333333333,
+            "f1-score": 0.7096774193548387,
+            "support": 15.0
+        },
+        "Pneumonia": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 15.0
+        },
+        "Type2Diabetes": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 15.0
+        },
+        "accuracy": 0.8166666666666667,
+        "macro avg": {
+            "precision": 0.8257753582202112,
+            "recall": 0.8166666666666667,
+            "f1-score": 0.8158591483188258,
+            "support": 120.0
+        },
+        "weighted avg": {
+            "precision": 0.8257753582202112,
+            "recall": 0.8166666666666667,
+            "f1-score": 0.8158591483188258,
+            "support": 120.0
+        }
+    }
+}
